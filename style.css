@@ -1,0 +1,84 @@
+body {
+	background-color: rgba(84, 1, 44, 0.5);
+	color: rgba(75, 75, 75, 1);
+	font-family: cursive;
+	}
+
+h1 {
+	color: black;
+	font-weight: 750;
+    }
+
+h2 { 
+    color: black;
+    font-weight: 550;
+   }
+
+a {
+	text-decoration: none;
+	color: black;
+
+   }
+
+a:hover {
+	color: rgba(22, 21, 92, 0.72);
+}
+
+#PP {
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+/* Custom Design With class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 750px);
+  .container {
+  	width: 600px;
+  }
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: rgba(22, 21, 92, 0.72);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+
+}
+
+.list-inlign {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inlign li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inlign i {
+    font-size: 50px;
+
+}
+#twitch p {
+	margin-bottom: 40px;
+}
